@@ -149,6 +149,10 @@
     .link{
         height: 40vh;
     }
+       .bullet a{
+        margin: 1px;
+        padding: 1px;
+    }
     .vid img{
         height: 255px;
         width: 255px;
