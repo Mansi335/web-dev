@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid  rgb(140, 172, 177) ;
+    background-color: rgb(180, 197, 212);
+}
+.bullet a{
+    margin: 9px;
+    text-decoration: none;
+    padding: 10px}
+
+.bullet a:hover{
+    color: blue;
+}
+.bullet a:active{
+    background-color: rgb(157, 157, 218);
+}
+
+.pro img{
+    border-radius: 10px;
+    margin: 13px;
+}
+.pro{
+    border: 2px solid rgb(188, 188, 223);
+    cursor: pointer;  
+    margin: 20px;
+}
+.pro:hover{
+    box-shadow: 20px 20px 34px rgb(208, 208, 224);
+}
+.about{
+    margin: 13px;  
+}
+.link{
+    background-image: url(mainpic/banner3.jpeg);
+    background-repeat: no-repeat;
+    height: 20vh;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+ justify-content: space-evenly;
+}
+.te{
+    margin-left: 33px;
+}
+.inpu input{
+   font-size: 14px;
+   border-radius: 8px;
+   background-color: bisque;
+   padding: 4px;
+}
+.inpu button{
+    font-size:14px ;
+    border-radius: 8px;
+    background-color: bisque;
+    padding: 4px;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+}
+.foot h3{
+    margin-bottom: 33px;
+    color: rgb(36, 35, 35);
+}
+.foot h4{
+    color: rgb(189, 173, 173);
+}
+
+#prodetail{
+    margin: 44px;
+}
+.pr{
+    display: flex;
+}
+.im {
+   margin:44px; 
+}
+.detail{
+    margin: 33px;
+}
+.detail h3{
+    margin: 9px 0;
+}
+.size{
+    margin-bottom: 9px;
+}
+button{
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 10px 7px;
+}
+.detail h2{
+    font-size: 44px;
+}
+.product{
+   
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#product h1{
+    font-size: 66px;
+    text-align: center;
+    color: rgb(233, 196, 149);
+}
+#product h3{
+    font-size: 33px;
+    text-align: center;
+    color: gray;
+}
+.pro{
+    border: 2px solid rgb(188, 188, 223);
+    cursor: pointer;  
+    margin: 20px;
+}
+.pro:hover{
+    box-shadow: 20px 20px 34px rgb(208, 208, 224);
+}
+.about{
+    margin: 13px;  
+}
+#product h1{
+    font-size: 66px;
+    text-align: center;
+    color: rgb(233, 196, 149);
+}
+#product h3{
+    font-size: 33px;
+    text-align: center;
+    color: gray;
+}
+
+@media (max-width:499px){
+    .im img{
+        height: 422px;
+    }
+    .inpu input{
+        font-size: 10px;  
+    }
+  .text button{
+    margin-top: 4px;
+  }
+  .pr{
+    flex-wrap: wrap;
+  }
+    .foot{
+        display: flex;
+        flex-direction: column;  
+    }
+    .bullet{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        
+    }
+    .box{
+        margin: 5px;
+    }
+    .link{
+        height: 40vh;
+    }
+}
+@media (max-width:632px){
+    .pr{
+        flex-wrap: wrap;
+      }
+}

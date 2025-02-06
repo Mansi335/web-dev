@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid  rgb(140, 172, 177) ;
+    background-color: rgb(180, 197, 212);
+}
+.bullet a{
+    margin: 9px;
+    padding: 10px;
+text-decoration: none;}
+    
+
+.bullet a:hover{
+    color: blue;
+}
+.bullet a:active{
+    background-color: rgb(157, 157, 218);
+}
+#hero{
+    background-image: url(mainpic/hero\ pic3.webp);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.text{
+    margin-right: 94px;
+}
+.text h3{
+font-size: 33px;margin-left: 4px;
+}
+.text h1{
+font-size: 55px;
+}
+.text h2{
+font-size: 34px;
+}
+.text button{
+    font-size: 22px;
+    padding: 9px;
+    margin-left: 89px;
+    margin-top: 80px;
+    border: none;
+    background-color: rgb(95, 129, 143);
+    border-radius: 13px;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 14px;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid black;
+    height: 135px;
+    width: 135px;  
+    border-color:rgb(187, 123, 133) ; 
+}
+.box h3{
+    text-align: center;
+    color: rgb(187, 123, 133);
+}
+.box:hover{
+    box-shadow: 20px 20px 34px rgb(235, 202, 150);
+}
+.product{
+   
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#product h1{
+    font-size: 66px;
+    text-align: center;
+    color: rgb(233, 196, 149);
+}
+#product h3{
+    font-size: 33px;
+    text-align: center;
+    color: gray;
+}
+.pro img{
+    border-radius: 10px;
+    margin: 13px;
+}
+.pro{
+    border: 2px solid rgb(188, 188, 223);
+    cursor: pointer;  
+    margin: 20px;
+}
+.pro:hover{
+    box-shadow: 20px 20px 34px rgb(208, 208, 224);
+}
+.about{
+    margin: 13px;  
+}
+#banner{
+    background-image: url(mainpic/banner1.jpeg);
+    height: 60vh;
+    width: 100%;
+    
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#banner h2{
+    font-size: 53px;
+}
+#banner h3{
+    font-size: 32px;
+}
+#banner button{
+ font-size: 30px;
+ background-color: beige;
+ border-radius: 5px;
+ padding: 4px;
+ cursor: pointer;
+}
+
+.one{
+    background-image: url(mainpic/hero\ pic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 50vh;
+    width: 40vw;
+    margin: 20px;
+}
+.two{
+    background-image: url(mainpic/banner2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    margin: 20px;
+}
+.mainbanner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 14px;
+    flex-wrap: wrap;
+}
+.mainbanner h2{
+    margin-left: 22px;
+    font-size: 33px;
+    font-weight:800;
+}
+.mainbanner h3{
+    margin-left: 22px;
+    margin-top:33px ;
+    font-size: 23px;
+    font-weight:800;
+}
+.mainbanner button{
+    margin-left: 22px;
+    margin-top: 22px ;
+    font-size: 23px;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.link{
+    background-image: url(mainpic/banner3.jpeg);
+    background-repeat: no-repeat;
+    height: 20vh;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+ justify-content: space-evenly;
+}
+.te{
+    margin-left: 33px;
+}
+.inpu input{
+   font-size: 14px;
+   border-radius: 8px;
+   background-color: bisque;
+   padding: 4px;
+}
+.inpu button{
+    font-size:14px ;
+    border-radius: 8px;
+    background-color: bisque;
+    padding: 4px;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+}
+.foot h3{
+    margin-bottom: 33px;
+    color: rgb(36, 35, 35);
+}
+.foot h4{
+    color: rgb(189, 173, 173);
+}
+@media (max-width:499px) {
+    .inpu input{
+        font-size: 10px;  
+    }
+    .bullet a{
+        margin: 1px;
+        padding: 1px;
+    }
+  .text button{
+    margin-top: 4px;
+  }
+    .foot{
+        display: flex;
+        flex-direction: column;  
+    }
+    .bullet{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        
+    }
+    .box{
+        margin: 5px;
+    }
+    .one{
+        height: 50vh;
+        width: 90vw;
+    }
+    .two{
+        height: 50vh;
+         width: 90vw;
+    }
+    .link{
+        height: 40vh;
+    }
+
+ 
+} 
