@@ -16,6 +16,10 @@
     border: 2px solid  rgb(140, 172, 177) ;
     background-color: rgb(180, 197, 212);
 }
+   .bullet a{
+        margin: 1px;
+        padding: 1px;
+    }
 .bullet a{
     margin: 9px;
     text-decoration: none;
