@@ -107,6 +107,10 @@ font-size: 33px
   .text button{
     margin-top: 4px;
   }
+       .bullet a{
+        margin: 1px;
+        padding: 1px;
+    }
     .foot{
         display: flex;
         flex-direction: column;  
